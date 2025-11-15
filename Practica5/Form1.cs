@@ -46,7 +46,7 @@ namespace Practica5
 
         private void txtboxEdad_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar < 48 || e.KeyChar > 57 &&  e.KeyChar != 8)
+            if ((e.KeyChar < 48 || e.KeyChar > 57) &&  e.KeyChar != 8)
                 e.Handled = true;
         }
 
