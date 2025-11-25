@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{939304F0-D3DD-436A-9BA8-54438A0CBC95}</ProjectGuid>
+    <ProjectGuid>{C9EF9F8E-50B1-48E7-AFB7-4C47969F232E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ejemplo1</RootNamespace>
-    <AssemblyName>ejemplo1</AssemblyName>
+    <RootNamespace>DateTimePrueba</RootNamespace>
+    <AssemblyName>DateTimePrueba</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,12 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="fmrVentanaDos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fmrVentanaDos.Designer.cs">
-      <DependentUpon>fmrVentanaDos.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

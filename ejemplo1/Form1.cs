@@ -19,6 +19,10 @@ namespace ejemplo1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
+            string texto = txtNombre.Text;
+            MessageBox.Show("Hola " + texto + ". Te damos la bienvenida.");
+            lblSaludo.Text = "Hola " + texto;
 
         }
     }
